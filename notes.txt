@@ -1,0 +1,64 @@
+## to install login, registeration package
+
+
+--------------------------
+## 1- github/laravel/ui
+
+2- install the package
+composer require laravel/ui
+
+3- update node to the latest version
+
+4- install auth pacakage
+php artisan ui bootstrap --auth  ((create login , registeration pages in the project)) , routes, controllers
+
+5- npm install
+
+6- npm run dev
+================================== goto localhost:8000 ====
+
+we found links for login and register
+
+---> login , registeration
+------------ what was added to the application
+-- after install laravel/ui package
+
+
+inside resource/views  ====> new folder auth  ((login, register, forget password))
+
+inside routes/web.php ---->  Auth::routes();
+
+inside the controller ----> Auth controller
+
+-------------------------------------
+only logged_in users can create, edit , delete book ?
+
+lab:
+1- add author to the blog ((or user))
+2- install laravel/ui package
+3- use auth middleware on update, store, delete
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
